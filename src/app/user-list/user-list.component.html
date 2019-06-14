@@ -1,3 +1,16 @@
-<p>
-  user-list works!
-</p>
+
+<div *ngFor="let user">
+
+  <h3>
+      {{ user.name }}
+  </h3>
+  <button (click)="share()">
+    Share
+  </button>
+</div>
+<!-- <p> -->
+  <!-- user-list works! -->
+<!-- </p> -->
+<!-- <app-user-item> -->
+
+<!-- </app-user-item> -->
