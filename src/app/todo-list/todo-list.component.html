@@ -1,0 +1,7 @@
+<form (submit)="addTodo($event)">
+  <input [(ngModel)]="newTodo" (keyup.enter)="newTodo=''" class="textfield" name="newTodo">
+  <button type="submit" [disabled]="newTodo===''">Add Todo</button>
+</form>
+
+{{title}}
+
